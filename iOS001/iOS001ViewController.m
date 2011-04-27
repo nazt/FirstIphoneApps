@@ -36,6 +36,7 @@
 - (IBAction)move {
     [moving_button setFrame:CGRectMake([slider value],  moving_button.frame.origin.y, moving_button.frame.size.width, moving_button.frame.size.height)];
     [moving_button setTitle:[NSString stringWithFormat:@"Value: %d", (int)[slider value]] forState:UIControlStateNormal];
+    
     NSLog(@"Value: %f", [slider value]);
 }
 - (void)viewDidUnload
