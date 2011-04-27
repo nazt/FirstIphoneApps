@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface iOS001ViewController : UIViewController {
-    
+    IBOutlet UIButton *moving_button;
+    IBOutlet UISlider *slider;
 }
+
+- (IBAction)move;
 
 @end

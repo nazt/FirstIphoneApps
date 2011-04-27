@@ -39,20 +39,20 @@
 		E0565EDC1367FF700058C11D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E0565EDE1367FF700058C11D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E0565EE01367FF700058C11D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E0565EE41367FF700058C11D /* iOS001-Info.plist */ = {isa = PBXFileReference; path = "iOS001-Info.plist"; sourceTree = "<group>"; };
+		E0565EE41367FF700058C11D /* iOS001-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS001-Info.plist"; sourceTree = "<group>"; };
 		E0565EE61367FF700058C11D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E0565EE81367FF700058C11D /* iOS001-Prefix.pch */ = {isa = PBXFileReference; path = "iOS001-Prefix.pch"; sourceTree = "<group>"; };
+		E0565EE81367FF700058C11D /* iOS001-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS001-Prefix.pch"; sourceTree = "<group>"; };
 		E0565EE91367FF700058C11D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E0565EEB1367FF700058C11D /* iOS001AppDelegate.h */ = {isa = PBXFileReference; path = iOS001AppDelegate.h; sourceTree = "<group>"; };
+		E0565EEB1367FF700058C11D /* iOS001AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS001AppDelegate.h; sourceTree = "<group>"; };
 		E0565EEC1367FF700058C11D /* iOS001AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS001AppDelegate.m; sourceTree = "<group>"; };
 		E0565EEF1367FF700058C11D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		E0565EF11367FF700058C11D /* iOS001ViewController.h */ = {isa = PBXFileReference; path = iOS001ViewController.h; sourceTree = "<group>"; };
+		E0565EF11367FF700058C11D /* iOS001ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS001ViewController.h; sourceTree = "<group>"; };
 		E0565EF21367FF700058C11D /* iOS001ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS001ViewController.m; sourceTree = "<group>"; };
 		E0565EF51367FF700058C11D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iOS001ViewController.xib; sourceTree = "<group>"; };
 		E0565EFC1367FF700058C11D /* iOS001Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS001Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0565F041367FF710058C11D /* iOS001Tests-Info.plist */ = {isa = PBXFileReference; path = "iOS001Tests-Info.plist"; sourceTree = "<group>"; };
+		E0565F041367FF710058C11D /* iOS001Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS001Tests-Info.plist"; sourceTree = "<group>"; };
 		E0565F061367FF710058C11D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E0565F081367FF710058C11D /* iOS001Tests-Prefix.pch */ = {isa = PBXFileReference; path = "iOS001Tests-Prefix.pch"; sourceTree = "<group>"; };
+		E0565F081367FF710058C11D /* iOS001Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS001Tests-Prefix.pch"; sourceTree = "<group>"; };
 		E0565F091367FF710058C11D /* iOS001Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS001Tests.h; sourceTree = "<group>"; };
 		E0565F0B1367FF710058C11D /* iOS001Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS001Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */

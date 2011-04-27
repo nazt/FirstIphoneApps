@@ -33,6 +33,11 @@
 }
 */
 
+- (IBAction)move {
+    [moving_button setFrame:CGRectMake([slider value],  moving_button.frame.origin.y, moving_button.frame.size.width, moving_button.frame.size.height)];
+    [moving_button setTitle:[NSString stringWithFormat:@"Value: %d", (int)[slider value]] forState:UIControlStateNormal];
+    NSLog(@"Value: %f", [slider value]);
+}
 - (void)viewDidUnload
 {
     [super viewDidUnload];
@@ -43,7 +48,8 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    YES;
+    //return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 @end
